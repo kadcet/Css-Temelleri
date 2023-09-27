@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            height: 100px;
+            border: springgreen solid;
+            object-fit: cover;
+        }
+        /* sayfam 400px den küçükse arkaplan rengi chartreuse */
+        @media screen and (max-width:400px) {
+            body{
+                background-color: chartreuse;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="./bayrak.jpg">
+</body>
+</html>
